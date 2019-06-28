@@ -1,21 +1,15 @@
 <template>
-  <div v-if="userImage">
-    <img :src="loadUserImage" v-if="loadUserImage!==null">
-    <h2 v-else>Bad img src!</h2>
+  <div v-if="userName">
+    <h1>{{userName}}</h1>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    userImage: {
-      type: [String, Number],
+    userName: {
+      type: [String],
       required: true
-    }
-  },
-  computed: {
-    loadUserImage() {
-      return userImage !== null ? userImage : null;
     }
   }
 };
