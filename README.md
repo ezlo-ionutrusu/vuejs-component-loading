@@ -1,5 +1,7 @@
 # vuejs-component-loading
 
+Three types of component loading, ASYNC, Repository(Git+Package), and from external source(vue file compiled to js)
+
 ## Project setup
 
 ```
