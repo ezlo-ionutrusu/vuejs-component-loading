@@ -10,17 +10,19 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.3"
+    "vue-router": "^3.0.3",
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
-    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "repo-component": "git+https://github.com/ezlo-ionutrusu/vuejs-component-loading.git#repo-component"
   },
   "eslintConfig": {
     "root": true,
@@ -29,9 +31,19 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "@vue/airbnb"
+      "@vue/prettier"
     ],
-    "rules": {},
+    "rules": {
+      "valid-template-root": 0,
+      "linebreak-style": 0,
+      "no-param-reassign": 0,
+      "max-len": 0,
+      "import/no-named-as-default": 0,
+      "no-underscore-dangle": 0,
+      "global-require": 0,
+      "no-extraneous-dependencies": 0,
+      "import/no-unresolved": 0
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
