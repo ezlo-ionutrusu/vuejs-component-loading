@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     loadUserImage() {
-      return userImage !== null ? userImage : null;
+      return this.userImage !== null ? this.userImage : null;
     }
   }
 };
