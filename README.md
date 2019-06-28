@@ -2,6 +2,8 @@
 
 Three types of component loading, ASYNC, Repository(Git+Package), and from external source(vue file compiled to js)
 
+Repository component is found here, under repo-component branch, git+https://github.com/ezlo-ionutrusu/vuejs-component-loading.git#repo-component
+
 ## Project setup
 
 ```
